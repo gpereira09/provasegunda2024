@@ -29,11 +29,11 @@ GET http://localhost:5181/api/imc/listar
 Content-Type: application/json
 
 ### Alterar IMC
-PUT http://localhost:5181/api/imc/atualizar
+PUT http://localhost:5181/api/imc/atualizar/1
 Content-Type: application/json
 
 {
     "AlunoId": 2,
-    "Altura": 1.90,
-    "Peso": 70
+    "Altura": 2.1,
+    "Peso": 90
 }
